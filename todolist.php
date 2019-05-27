@@ -108,38 +108,3 @@ include 'phpfiles.php';
 <?php
 include 'footer.php';
 ?>
-<script type="text/javascript">
-		$(document).ready(function () {
-			// $('#add').click(function (event) {
-			// 	event.preventDefault();
-			// 	var task = $('.task').val();
-			// 	var date = $('.date').val();
-			// 	var clock = $('.clock').val();
-			// 	// if (task !=="") {
-			// 		$.ajax({
-			// 			type: 'POST',
-			// 			url: 'phpfiles.php',
-			// 			data: {task:task,date:date,clock:clock},
-			// 			cache: false,
-			// 			success: function (res) {
-			// 					alert(res);
-			// 			}
-			// 		});
-			// 	// }
-			// });
-
-			// $('.delete').click(function (event) {
-			// 	event.preventDefault();
-			// 	var del = $(this).val();
-			// 	$.ajax({
-			// 		type:'POST',
-			// 		url:'phpfiles.php',
-			// 		data:{del:del},
-			// 		cache: false,
-			// 		success:function (res) {
-			// 			alert(res);
-			// 		}
-			// 	})
-			// });
-		})
-	</script>
