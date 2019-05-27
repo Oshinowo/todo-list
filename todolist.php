@@ -4,7 +4,7 @@ include 'phpfiles.php';
 
 ?>
 	<div class="container-fluid">
-		<div class="card mx-auto my-5 col-sm-8 col-md-8 text-center">
+		<div class="card mx-auto my-5 col-sm-8 col-md-8 text-center jumbotron">
 			<div class="card-content">
 				<div class="card-header">
 					<h2>To-Do List</h2>
@@ -100,7 +100,7 @@ include 'phpfiles.php';
 				</div>	
 			</div>
 				<div class="card-footer">
-					<span>Created by $#&####$$</span>
+					<span>Created by $oshinowo</span>
 				</div>
 			</div>
 		</div>
